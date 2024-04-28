@@ -1,3 +1,10 @@
+<!-- header -->
+<?php include_once './layouts/header.php' ; ?>
+
+
+<!-- nav -->
+<?php include_once './layouts/nav.php' ; ?>
+
 <?php
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
@@ -55,13 +62,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 ?>
 
-
-<!-- header -->
-<?php include_once './layouts/header.php' ; ?>
-
-
-<!-- nav -->
-<?php include_once './layouts/nav.php' ; ?>
 
 <div class="container">
     <div class="row">
